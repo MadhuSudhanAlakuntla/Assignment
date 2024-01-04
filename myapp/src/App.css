@@ -1,0 +1,55 @@
+*{
+  /* background-color: rgb(125, 161, 161); */
+  color: white;
+  font-family:sans-serif;
+}
+.App{
+  width: 100%;
+}
+#sidebar{
+  width: 20%;
+  /* text-align: center; */
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 5px;
+  /* border-right: 1px solid black; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
+}
+#myspace{
+  /* border: 1px solid black; */
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#navbar{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: gray;
+}
+#months{
+  display: flex;
+}
+#inp{
+  height: 70%;
+  margin-top: 3px;
+  border: 0px;
+  border: 1px solid rgb(31, 28, 28);
+  border-radius: 6%;
+}
+
+th,h3{
+  color: orange
+}
+.logo {
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  border: 2px solid white;
+  padding: 10px;
+  color: white;
+  border-radius: 8px;
+  background-color: #61dafb; /* React blue color, change as needed */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
